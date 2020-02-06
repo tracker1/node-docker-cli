@@ -3,9 +3,9 @@
 Quick command interface for running docker commands with parsed results.
 
 ```js
-import dockerCommand from '@tracker1/docker-cli`;
+import dockerCommand from '@tracker1/docker-cli';
 
-const result = await dockerCommand('ps', options)
+const result = await dockerCommand('ps', options);
 ```
 
 ## dockerCommand
