@@ -1,5 +1,13 @@
 # @tracker1/docker-cli
 
+[![npm version](https://img.shields.io/github/package-json/v/tracker1/node-docker-cli)](https://www.npmjs.com/package/@tracker1/docker-cli)
+<!-- [![Actions Status](https://github.com/tracker1/node-docker-cli/workflows/Tests/badge.svg)](https://github.com/tracker1/node-docker-cli/actions) -->
+<!-- [![Code Coverage](https://img.shields.io/coveralls/github/tracker1/node-docker-cli)](https://github.com/tracker1/node-docker-cli) -->
+[![Dependency Status](https://img.shields.io/librariesio/release/npm/%40tracker1/docker-cli)](https://libraries.io/npm/%40tracker1/docker-cli)
+![Github Issues](https://img.shields.io/github/issues/tracker1/node-docker-cli?style=plastic) 
+[![MIT License](https://img.shields.io/github/license/tracker1/node-docker-cli)](./LICENSE)
+
+
 Quick command interface for running docker commands with parsed results.
 
 ```js
