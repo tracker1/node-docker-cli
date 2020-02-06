@@ -29,7 +29,7 @@ The command `dockerCommand(command, options)` has to input parameters.
 
 ## Related Projects
 
-* (docker-cli-js)[https://github.com/Quobject/docker-cli-js] - Original inspiration, started with some logic from this project.
+[docker-cli-js](https://github.com/Quobject/docker-cli-js) - Original inspiration, started with some logic from this project. Reduced interface footprint to single method, separated logic out and using camelCase response naming.
 
 ## License
 
