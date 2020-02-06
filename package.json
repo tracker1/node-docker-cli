@@ -1,6 +1,6 @@
 {
   "name": "@tracker1/docker-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Docker cli interface",
   "main": "index.js",
   "repository": {
