@@ -73,7 +73,6 @@ export default [
     re: /^(\w+\s+)?inspect\b/,
     run(resultp) {
       const lines = JSON.parse(resultp.raw);
-      console.log('lines', lines);
 
       resultp.object = lines.map(camelCaseObject);
 
