@@ -1,4 +1,4 @@
-import { array2Object, splitLines, mapLines } from './utils';
+import { array2Object, splitLines, mapLines, camelCaseObject } from './utils';
 
 export default [
   {
@@ -70,11 +70,12 @@ export default [
     },
   },
   {
-    re: /^inspect\b/,
+    re: /^(\w+\s+)?inspect\b/,
     run(resultp) {
-      const object = JSON.parse(resultp.raw);
+      const lines = JSON.parse(resultp.raw);
+      console.log('lines', lines);
 
-      resultp.object = object;
+      resultp.object = lines.map(camelCaseObject);
 
       return resultp;
     },
