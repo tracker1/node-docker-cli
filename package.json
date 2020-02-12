@@ -2,6 +2,9 @@
   "name": "@tracker1/docker-cli",
   "version": "1.0.3",
   "description": "Docker cli interface",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "repository": {
     "type": "git",
