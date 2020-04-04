@@ -1,6 +1,6 @@
 {
   "name": "@tracker1/docker-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Docker cli interface",
   "publishConfig": {
     "access": "public"
