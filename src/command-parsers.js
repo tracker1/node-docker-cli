@@ -6,7 +6,7 @@ export default [
     run(resultp) {
       const lines = splitLines(resultp.raw);
 
-      lines.forEach(function(line) {
+      lines.forEach(function (line) {
         const re = /Successfully built (.*)$/;
         const str = line;
         const m = re.exec(str);

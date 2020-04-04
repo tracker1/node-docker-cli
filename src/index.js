@@ -16,7 +16,7 @@ export default async (command, options = {}) => {
   if (options.machineName) {
     machineconfig = await new DockerMachine()
       .command(`config ${options.machineName}`)
-      .then(data => data.machine.config);
+      .then((data) => data.machine.config);
   }
 
   const execCommand = `docker ${machineconfig} ${command}`;
@@ -47,11 +47,11 @@ export default async (command, options = {}) => {
     });
 
     if (options.echo) {
-      childProcess.stdout.on('data', chunk => {
+      childProcess.stdout.on('data', (chunk) => {
         process.stdout.write(chunk.toString());
       });
 
-      childProcess.stderr.on('data', chunk => {
+      childProcess.stderr.on('data', (chunk) => {
         process.stderr.write(chunk.toString());
       });
     }

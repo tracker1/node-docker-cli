@@ -11,4 +11,4 @@ export function camelCaseObject(o) {
   );
 }
 
-export default lines => cliTable2Json(lines).map(camelCaseObject);
+export default (lines) => cliTable2Json(lines).map(camelCaseObject);

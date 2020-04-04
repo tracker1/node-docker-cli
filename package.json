@@ -27,22 +27,22 @@
     "lodash.camelcase": "^4.3.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.3",
-    "@babel/core": "^7.8.3",
-    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
-    "@types/jest": "^25.1.0",
-    "babel-jest": "^25.1.0",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^25.2.6",
     "babel-plugin-add-module-exports": "^1.0.2",
     "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-plugin-jest": "^23.6.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-jest": "^23.8.2",
     "eslint-plugin-prettier": "^3.1.2",
     "esm": "^3.2.25",
     "glob": "^7.1.6",
-    "jest": "^25.1.0",
+    "jest": "^25.2.7",
     "jest-esm-transformer": "^1.0.0",
-    "mssql": "^6.0.1",
-    "prettier": "^1.19.1",
+    "mssql": "^6.2.0",
+    "prettier": "^2.0.2",
     "shelljs": "^0.8.3"
   },
   "prettier": {
@@ -73,7 +73,8 @@
     },
     "rules": {
       "prettier/prettier": "error",
-      "no-new-func": "off"
+      "no-new-func": "off",
+      "arrow-parens": 0
     }
   },
   "eslintIgnore": [

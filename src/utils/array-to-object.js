@@ -1,7 +1,7 @@
 import camelCase from 'lodash.camelcase';
 
-const array2Oject = function(lines) {
-  return lines.reduce(function(object, linep) {
+const array2Oject = function (lines) {
+  return lines.reduce(function (object, linep) {
     const line = linep.trim();
     if (line.length === 0) {
       return object;
